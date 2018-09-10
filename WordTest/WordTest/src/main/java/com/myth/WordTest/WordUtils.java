@@ -10,6 +10,16 @@ import java.util.Map;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 
+/**
+ * 
+* <p>Title: WordUtils</p>  
+* <p>Description: 
+*  仅仅使用freemarker实现
+* wrod模板生成wrod文档.
+* </p>  
+* @author myth
+* @date 2018年9月10日
+ */
 public class WordUtils {
     //配置信息,代码本身写的还是很可读的,就不过多注解了
     private static Configuration configuration = null;
@@ -27,6 +37,12 @@ public class WordUtils {
             e.printStackTrace();
         }
    }
+    /**
+     * 
+     * <p>Description: </p>  
+     * @param map
+     * @throws Exception
+     */
     public static void creatWord(Map map) throws Exception {
     	// 具体的模板对象.
         Template freemarkerTemplate = configuration.getTemplate("demo.ftl");
