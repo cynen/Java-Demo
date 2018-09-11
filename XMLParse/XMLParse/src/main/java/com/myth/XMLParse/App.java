@@ -33,4 +33,12 @@ public class App
     	DOM4JParse.modifyXML(src);
     }
     
+    
+    @Test
+    public void SAXTest() throws Exception {
+    	// parse
+    	String src =  "source/books.xml";
+    	SAXParse.SAXParse(src);
+    }
+    
 }

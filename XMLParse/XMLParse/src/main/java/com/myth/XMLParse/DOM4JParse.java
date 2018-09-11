@@ -13,7 +13,29 @@ import org.dom4j.Element;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 import org.omg.CORBA.PUBLIC_MEMBER;
+/**
+ * 
+ * 二、使用dom4j后程序变得更简单
 
+// 字符串转XML
+String xmlStr = "......";
+Document document = DocumentHelper.parseText(xmlStr);
+
+// XML转字符串 
+Document document = ...;
+String text = document.asXML();
+
+这里的XML DOCUMENT为org.dom4j.Document
+
+ * 
+*<p> Title: DOM4JParse  </p>
+*<p> Description: </p>
+*<p> Copyright: Copyright (c) 2018</p>  
+*<p> Company: myth</p>  
+* @author myth
+* @date 2018年9月12日  
+* @version v1.0
+ */
 public class DOM4JParse {
 
 	
