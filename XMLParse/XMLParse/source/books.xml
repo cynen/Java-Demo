@@ -1,0 +1,21 @@
+<books>
+	<book>
+		<title>Python3基础教程</title>
+		<price>99.00</price>
+		<product>机械工业出版社</product>
+		<descripe>Python3的基础教程,最后几个例子很不错</descripe>
+	</book>
+	<book>
+		<title>JVM高级特性</title>
+		<price>145.00</price>
+		<product>机械工业出版社</product>
+		<auth>周志明</auth>
+	</book>
+	<book>
+		<title>Python简明教程</title>
+		<price>59.00</price>
+		<product>电子工业出版社</product>
+		<descripe>byte-of-python-chinese-edition.pdf</descripe>
+	</book>
+	<flag>1</flag>
+</books>

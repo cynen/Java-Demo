@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workers>
+       <worker id="AQ01">
+            <name>Jery</name>
+            <sex>女</sex>
+            <status>经理</status>
+            <address>北京</address>
+            <money>4000</money>    
+        </worker>
+         <worker id="AD02">
+            <name>Lili</name>
+            <sex>女</sex>
+            <status>总监</status>
+            <address>青岛</address>
+            <money>40000</money>    
+        </worker>
+        <worker id="AD03">
+            <name>ChaoCaho</name>
+            <sex>男</sex>
+            <status>董事长</status>
+            <address>青岛</address>
+            <money>400000</money>    
+        </worker>       
+</workers>
