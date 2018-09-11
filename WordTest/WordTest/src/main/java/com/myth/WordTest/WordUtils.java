@@ -45,7 +45,7 @@ public class WordUtils {
      */
     public static void creatWord(Map map) throws Exception {
     	// 具体的模板对象.
-        Template freemarkerTemplate = configuration.getTemplate("demo.ftl");
+        Template freemarkerTemplate = configuration.getTemplate("wps.ftl");
         File file = null;
         try {
             // 调用工具类的createDoc方法生成Word文档
@@ -64,7 +64,7 @@ public class WordUtils {
      * @throws Exception
      */
     private static File createDoc(Map<?, ?> dataMap, Template template) throws Exception {
-        String name =  "F:/test2.doc";
+        String name =  "F:/wps.doc";
         File f = new File(name);
         if(!f.exists()) {
         	f.createNewFile();
