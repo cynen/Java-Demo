@@ -4,6 +4,15 @@ package com.myth.heap;
 *<p> Title: MaxHeap  </p>
 *<p> Description: 
 *	最大堆的实现
+
+这里为了方便，我们直接占用了数组下标为0的位置，
+在0的位置放置了一个null，
+这样数组中实际有效值的下标就和我们完全二叉树中层序遍历的实际序号对应了。
+这样，完全二叉树中，如果结点值为n,那么其左子树则为2n,右子树为2n+1；
+换句话说，对于任一结点n,其父结点为n/2 取整即可。
+
+
+
 *</p>
 *<p> Copyright: Copyright (c) 2018</p>  
 *<p> Company: myth</p>  
