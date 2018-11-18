@@ -1,7 +1,7 @@
 
-Ö÷ÒªÑ§Ï°½âÎöXMlµÈ¼¼Êõ.
+ä¸»è¦å­¦ä¹ è§£æžXMlç­‰æŠ€æœ¯.
 
-DOM4J ½âÎö -- DoMÊ÷¶ÁÈ¡µ½ÄÚ´æÖÐ.
-DOM½âÎö -- 
-SAX½âÎö --Çý¶¯½âÎö
+DOM4J è§£æž -- DoMæ ‘è¯»å–åˆ°å†…å­˜ä¸­.ä¾èµ–RootèŠ‚ç‚¹.
+DOMè§£æž -- 
+SAXè§£æž --é©±åŠ¨è§£æž
 
